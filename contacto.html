@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feria de Viajes 2025 - Contacto</title>
+    <link rel="stylesheet" href="estilos/estilos.css" />
+</head>
+<body>
+    <!-- Página de contacto con formulario para los visitantes -->
+
+    <!-- Cabecera y menú principal -->
+    <header>
+        <h1>Feria de Viajes 2025</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="expositores.html">Expositores</a></li>
+                <li><a href="programa.html">Programa</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de introducción al contacto -->
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna duda o sugerencia sobre la Feria de Viajes 2025? Rellena el siguiente formulario y te responderemos lo antes posible.</p>
+
+        <!-- Formulario de contacto -->
+        <form action="mailto:info@feriadeviajes2025.com" method="post" enctype="text/plain">
+            <!-- Nombre completo -->
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+
+            <!-- Correo electrónico -->
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+
+            <!-- Asunto del mensaje -->
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" placeholder="Motivo del mensaje" required />
+
+            <!-- Mensaje -->
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+            <!-- Selección de interés -->
+            <label for="interes">Estoy interesado en:</label>
+            <select id="interes" name="interes">
+                <option value="viajes">Viajes organizados</option>
+                <option value="expositores">Ser expositor</option>
+                <option value="actividades">Actividades de la feria</option>
+                <option value="otros">Otros</option>
+            </select>
+
+            <!-- Botón de envío -->
+            <input type="submit" value="Enviar mensaje" />
+        </form>
+
+        <!-- Información adicional de contacto -->
+        <h3>También puedes contactarnos en:</h3>
+        <ul>
+            <li><strong>Teléfono:</strong> +34 900 123 456</li>
+            <li><strong>Correo:</strong> info@feriadeviajes2025.com</li>
+            <li><strong>Dirección:</strong> Palacio de Congresos, Madrid</li>
+        </ul>
+
+        <!-- Imagen representativa del contacto -->
+        <img src="imagenes/contacto-feria.jpg" alt="Mostrador de información en la feria" />
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Feria de Viajes | Desarrollado por dit
+
