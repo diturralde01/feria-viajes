@@ -8,6 +8,8 @@
 </head>
 <body>
     <!-- Página de destinos turísticos destacados -->
+
+    <!-- Cabecera y menú principal -->
     <header>
         <h1>Feria de Viajes 2025</h1>
         <nav>
@@ -27,19 +29,19 @@
 
         <h3>🌴 Top 5 destinos internacionales</h3>
         <ol>
-            <li>Japón - Cultura, tecnología y tradición.</li>
-            <li>Islandia - Naturaleza y auroras boreales.</li>
-            <li>Italia - Arte, historia y gastronomía.</li>
-            <li>Perú - El encanto del Machu Picchu.</li>
-            <li>Australia - Playas, surf y vida salvaje.</li>
+            <li id="destino1" onclick="resaltarDestino('destino1')">Japón - Cultura, tecnología y tradición.</li>
+            <li id="destino2" onclick="resaltarDestino('destino2')">Islandia - Naturaleza y auroras boreales.</li>
+            <li id="destino3" onclick="resaltarDestino('destino3')">Italia - Arte, historia y gastronomía.</li>
+            <li id="destino4" onclick="resaltarDestino('destino4')">Perú - El encanto del Machu Picchu.</li>
+            <li id="destino5" onclick="resaltarDestino('destino5')">Australia - Playas, surf y vida salvaje.</li>
         </ol>
 
         <h3>🏞️ Lugares destacados en España</h3>
         <ul>
-            <li>Sevilla - Flamenco y arquitectura andaluza.</li>
-            <li>Granada - La Alhambra y sus vistas.</li>
-            <li>Bilbao - Museo Guggenheim y costa vasca.</li>
-            <li>Barcelona - Modernismo y playas urbanas.</li>
+            <li id="destino6" onclick="resaltarDestino('destino6')">Sevilla - Flamenco y arquitectura andaluza.</li>
+            <li id="destino7" onclick="resaltarDestino('destino7')">Granada - La Alhambra y sus vistas.</li>
+            <li id="destino8" onclick="resaltarDestino('destino8')">Bilbao - Museo Guggenheim y costa vasca.</li>
+            <li id="destino9" onclick="resaltarDestino('destino9')">Barcelona - Modernismo y playas urbanas.</li>
         </ul>
 
         <h3>Más información</h3>
@@ -53,8 +55,12 @@
         <img src="imagenes/destinos.jpg" alt="Collage de destinos turísticos del mundo" />
     </main>
 
+    <!-- Pie de página -->
     <footer>
         <p>&copy; 2025 Feria de Viajes | <a href="index.html">Volver al inicio</a></p>
     </footer>
+
+    <!-- Vinculación del archivo de funciones JavaScript -->
+    <script src="funciones/funciones.js"></script>
 </body>
 </html>

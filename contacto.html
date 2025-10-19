@@ -29,7 +29,7 @@
         <p>¿Tienes alguna duda o sugerencia sobre la Feria de Viajes 2025? Rellena el siguiente formulario y te responderemos lo antes posible.</p>
 
         <!-- Formulario de contacto -->
-        <form action="mailto:info@feriadeviajes2025.com" method="post" enctype="text/plain">
+        <form onsubmit="return validarFormulario()" action="mailto:info@feriadeviajes2025.com" method="post" enctype="text/plain">
             <!-- Nombre completo -->
             <label for="nombre">Nombre completo:</label>
             <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
@@ -71,6 +71,12 @@
         <img src="imagenes/contacto-feria.jpg" alt="Mostrador de información en la feria" />
     </main>
 
+    <!-- Pie de página -->
     <footer>
-        <p>&copy; 2025 Feria de Viajes | Desarrollado por dit
+        <p>&copy; 2025 Feria de Viajes | Desarrollado por diturralde</p>
+    </footer>
 
+    <!-- Vinculación del archivo de funciones JavaScript -->
+    <script src="funciones/funciones.js"></script>
+</body>
+</html>

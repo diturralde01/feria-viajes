@@ -28,8 +28,13 @@
         <h2>Empresas participantes</h2>
         <p>Más de 100 expositores nacionales e internacionales estarán presentes en la Feria de Viajes 2025. A continuación te mostramos algunos destacados:</p>
 
+        <!-- Filtro por país -->
+        <label for="paisFiltro">Filtrar por país:</label>
+        <input type="text" id="paisFiltro" placeholder="Escribe un país">
+        <button onclick="filtrarExpositores(document.getElementById('paisFiltro').value)">Filtrar</button>
+
         <!-- Tabla de expositores -->
-        <table>
+        <table id="tablaExpositores">
             <thead>
                 <tr>
                     <th>Nombre</th>
@@ -76,8 +81,12 @@
         <img src="imagenes/expositores.jpg" alt="Stands de expositores en la feria de viajes" />
     </main>
 
+    <!-- Pie de página -->
     <footer>
         <p>&copy; 2025 Feria de Viajes | Desarrollado por diturralde</p>
     </footer>
+
+    <!-- Vinculación del archivo de funciones JavaScript -->
+    <script src="funciones/funciones.js"></script>
 </body>
 </html>
